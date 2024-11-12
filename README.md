@@ -97,7 +97,7 @@ rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.02517 image:
 ```
 This will open up the calibration window, which will highlight the checkerboard:
 
-imag_1
+![img_1.png](imgs/img_1.png)
 
 Note:
 If you can't see any colored dots, make sure you count the interior vertex points, not the squares!
@@ -106,15 +106,15 @@ In order to get a good calibration you will need to move the checkerboard around
 
 At each step, hold the checkerboard still until the image is highlighted in the calibration window.
 
-img_2
+![img_2.png](imgs/img_2.png)
 
 As you move the checkerboard around, you will see three bars on the calibration sidebar increase in length, when the CALIBRATE button is lit up or enabled.
 
-img_3
+![img_3.png](imgs/img_3.png)
 
 9. After getting enough images, click on the calibrate and then save.
 
-img_4
+![img_4.png](imgs/img_4.png)
   
 12. If you click on the commit button, it will copy calibration data into:
 
